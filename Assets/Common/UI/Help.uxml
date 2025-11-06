@@ -1,0 +1,16 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Common/UI/USS/Fonts.uss?fileID=7433441132597879392&amp;guid=fadc4f03068e58d458ae40159e969a30&amp;type=3#Fonts" />
+    <ui:VisualElement name="HelpMenu" style="flex-grow: 1; justify-content: center; width: 100%; height: 100%; position: absolute; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px;">
+        <ui:Label text="Help" class="Heading" style="color: rgb(255, 255, 255); margin-top: 50px;" />
+        <ui:VisualElement style="flex-grow: 1;">
+            <ui:Label text="How to play" class="Label" style="-unity-text-align: middle-center;" />
+            <ui:Label text="Collect candies and return them to the evil cauldron when you have collected enough, Stay away from the enemies." class="Label" style="-unity-text-align: middle-center; margin-top: 25px;" />
+            <ui:Label text="Keys" class="Label" style="-unity-text-align: middle-center; margin-top: 50px;" />
+            <ui:Label text="W S A D - Move" class="Label" style="-unity-text-align: middle-center; margin-top: 25px;" />
+            <ui:Label text="Q E - Rotate Camera" class="Label" style="-unity-text-align: middle-center;" />
+            <ui:Label text="F - Drop candies off at cauldron" class="Label" style="-unity-text-align: middle-center;" />
+            <ui:Label text="Space = Jump" class="Label" style="-unity-text-align: middle-center;" />
+        </ui:VisualElement>
+        <ui:Button name="Back" text="Back" class="Label" />
+    </ui:VisualElement>
+</ui:UXML>

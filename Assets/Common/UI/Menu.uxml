@@ -1,0 +1,14 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Common/UI/USS/Fonts.uss?fileID=7433441132597879392&amp;guid=fadc4f03068e58d458ae40159e969a30&amp;type=3#Fonts" />
+    <Style src="project://database/Assets/Common/UI/USS/Buttons.uss?fileID=7433441132597879392&amp;guid=4d312c5fca440b5449a4e620f2b7da74&amp;type=3#Buttons" />
+    <ui:VisualElement name="MainMenu" style="flex-grow: 1; justify-content: center; width: 100%; height: 100%; position: absolute; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px;">
+        <ui:Label text="Halloween Scramble" class="Heading" style="color: rgb(255, 255, 255); font-size: 96px; height: 30%; flex-shrink: 1; text-shadow: 5px 5px 0 rgb(130, 130, 130);" />
+        <ui:VisualElement style="flex-grow: 1; padding-top: 50px; padding-right: 50px; padding-bottom: 50px; padding-left: 50px; justify-content: flex-end;">
+            <ui:Button text="Play" name="Play" class="Label" style="font-size: 36px;" />
+            <ui:Button text="Leaderboard" name="Leaderboard" class="Label" style="font-size: 36px; height: 58px;" />
+            <ui:Button text="Credits" name="Credits" class="Label" style="font-size: 36px;" />
+            <ui:Button text="Help" name="Help" class="Label" style="font-size: 36px; height: 58px;" />
+            <ui:Button text="Exit&#10;" name="Exit" class="Label" style="font-size: 36px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

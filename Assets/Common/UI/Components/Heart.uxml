@@ -1,0 +1,4 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Common/UI/USS/HUD.uss?fileID=7433441132597879392&amp;guid=c4425410ba0283948a9acc6129256fb5&amp;type=3#HUD" />
+    <ui:VisualElement name="Heart" class="Heart" style="margin-right: 15px;" />
+</ui:UXML>

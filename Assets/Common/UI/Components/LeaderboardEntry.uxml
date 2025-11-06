@@ -1,0 +1,7 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="LeaderboardEntry" style="height: 50px; flex-direction: row;">
+        <ui:Label name="Rank" text="1" class="Label" style="flex-grow: 1; width: 5%; -unity-text-align: middle-center;" />
+        <ui:Label name="Name" text="Jimmy"  class="Label" style="flex-grow: 1; width: 50%;" />
+        <ui:Label name="Score" text="702" class="Label" style="flex-grow: 1; width: 25%;" />
+    </ui:VisualElement>
+</ui:UXML>

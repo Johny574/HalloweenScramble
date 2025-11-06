@@ -1,0 +1,18 @@
+{
+    "name": "Systems",
+    "rootNamespace": "",
+    "references": [
+        "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:2b02e23b87d4b2240a953f0eabeed8cd",
+        "GUID:d864c5587a4ef0e449cd6cf3eb2d628e"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

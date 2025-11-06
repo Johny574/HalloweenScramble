@@ -1,0 +1,30 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="Heart" src="project://database/Assets/Common/UI/Components/Heart.uxml?fileID=9197481963319205126&amp;guid=0b2896e971504744caa6665dd1f40f07&amp;type=3#Heart" />
+    <Style src="project://database/Assets/Common/UI/USS/HUD.uss?fileID=7433441132597879392&amp;guid=c4425410ba0283948a9acc6129256fb5&amp;type=3#HUD" />
+    <Style src="project://database/Assets/Common/UI/USS/Fonts.uss?fileID=7433441132597879392&amp;guid=fadc4f03068e58d458ae40159e969a30&amp;type=3#Fonts" />
+    <Style src="project://database/Assets/Common/UI/USS/Buttons.uss?fileID=7433441132597879392&amp;guid=4d312c5fca440b5449a4e620f2b7da74&amp;type=3#Buttons" />
+    <ui:VisualElement name="HUD" class="HUD" style="flex-direction: row;">
+        <ui:VisualElement style="width: 50%;">
+            <ui:VisualElement name="Health" style="width: 25%; justify-content: flex-start; align-items: flex-start; flex-direction: row;">
+                <ui:Instance template="Heart" name="Heart" />
+                <ui:Instance template="Heart" name="Heart" />
+                <ui:Instance template="Heart" name="Heart" />
+            </ui:VisualElement>
+            <ui:Label text="Candies 3/5" name="CandyLabel" enable-rich-text="false" data-source-type="CandyTracker, Systems" class="HUDLabel" style="margin-top: 15px;">
+                <Bindings>
+                    <ui:DataBinding property="text" data-source-path="HUDDisplay" binding-mode="ToTarget" />
+                </Bindings>
+            </ui:Label>
+            <ui:Label text="Zombies 5&#10;" name="EnemyLabel" enable-rich-text="false" data-source-type="EnemyFactory, Systems" class="HUDLabel">
+                <Bindings>
+                    <ui:DataBinding property="text" data-source-path="HUDDisplay" binding-mode="ToTarget" />
+                </Bindings>
+            </ui:Label>
+            <ui:Label text="Score 5" name="ScoreLabel" enable-rich-text="false" data-source-type="ScoreTracker, Systems" class="HUDLabel">
+                <Bindings>
+                    <ui:DataBinding property="text" data-source-path="HUDDisplay" data-source-type="EnemyFactory, Systems" binding-mode="ToTarget" />
+                </Bindings>
+            </ui:Label>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
